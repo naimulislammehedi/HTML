@@ -1,0 +1,145 @@
+<!-- 
+Project: Cox’s Bazar Travel Guide Webpage
+
+Goal: Build a mini travel landing page using images, videos, links, lists — the core skills of Day 4. 
+-->
+
+<!-- 
+DESIGN IDEA (Why this structure works)
+
+- Header → Instantly delivers title + hero image → sets mood.
+- Main sections → Each one teaches you a different HTML skill:
+    - Lists (Reasons + Places)
+    - Image gallery
+    - Embedded video
+    - External links
+- Footer → Contact + copyright → essential structure for real websites.
+
+This layout mimics real travel websites and forces you to use media + navigation + structure.
+-->
+
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cox's Bazar – Travel Guide</title>
+  </head>
+  <body>
+    <!-- HERO SECTION -->
+    <header>
+      <h1>Cox's Baza, Bangladesh</h1>
+      <p>The longest natural sea beach in the world.</p>
+
+      <!-- HERO IMAGE -->
+      <img src="./img/coxs-bazar.jpg" alt="Cox's Bazar Sea Beach" width="600" />
+    </header>
+
+    <main>
+      <!-- WHY VISIT SECTION (LISTS) -->
+      <section>
+        <h2>Why Visit Cox's Bazar?</h2>
+
+        <h3>Top Reasons</h3>
+        <ul>
+          <li>World's longest uniterrupted beach</li>
+          <li>Affordable hotels and resorts</li>
+          <li>Fresh seafood everywhere</li>
+          <li>Perfect for sunrise & sunset photography</li>
+          <li>Lots of activities: surfung, swimming, beach biking</li>
+        </ul>
+
+        <h3>Top 3 Must-Visit Spots (Ordered List)</h3>
+        <ol>
+          <li>Laboni Beach</li>
+          <li>Marine Drive</li>
+          <li>Inani Beach</li>
+        </ol>
+      </section>
+
+      <!-- PHOTO GALLERY -->
+      <section>
+        <h2>Photo Gallery</h2>
+        <img src="./img/1.jpg" alt="Cox's Bazar Beach" width="200" />
+        <img src="./img/2.jpg" alt="Cox's Bazar Beach" width="200" />
+        <img src="./img/3.jpg" alt="Cox's Bazar Beach" width="200" />
+        <img src="./img/4.jpg" alt="Cox's Bazar Beach" width="200" />
+        <img src="./img/5.jpg" alt="Cox's Bazar Beach" width="200" />
+        <img src="./img/6.jpg" alt="Cox's Bazar Beach" width="200" />
+        <img src="./img/7.jpg" alt="Cox's Bazar Beach" width="200" />
+        <img src="./img/8.jpg" alt="Cox's Bazar Beach" width="200" />
+        <img src="./img/9.jpg" alt="Cox's Bazar Beach" width="200" />
+      </section>
+
+      <!-- VIDEO GUIDE SECTION -->
+      <section>
+        <h2>Travel Video Guide</h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/zCSmY_WjvPs?si=So8Avi3D5OJ2kfnF"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+
+        <p>
+          This video gives you an overview of Cox's Bazar, including the beach,
+          Marine Drive, and nearby attractions. Watch it before planning your
+          trip.
+        </p>
+      </section>
+
+      <!-- USEFUL LINKS -->
+      <section>
+        <h2>Helpful Travel Links</h2>
+        <ul>
+          <li>
+            <a
+              href="https://www.booking.com/city/bd/coxs-bazar.en.html?aid=1610684;label=coxs-bazar-71Us66jCRRiTuuY8zxqByQS541115122713:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-302318863657:lp1011785:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YfqnDqqG8nt10AsofPfvtt0;ws=&gad_source=1&gad_campaignid=1573322068&gbraid=0AAAAAD_Ls1KZF-YBOgpNA9dv3LKNzRGpe&gclid=Cj0KCQiAiqDJBhCXARIsABk2kSkKgBT_2gjXw0rP2D_yfFUu3vSMQgIaBED3-h6ZW-etSzbXf0HT9NUaAnW7EALw_wcB"
+              target="_blank"
+              title="Book Hotels"
+              >Hotel Booking</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://maps.app.goo.gl/2gjXwp3kcmVSCd9C7"
+              target="_blank"
+              title="Google Maps"
+              >Google Maps</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/results?search_query=coxs+bazar+travel"
+              target="_blank"
+              title="YouTube Travel Videos"
+              >YouTube Travel Vlogs</a
+            >
+          </li>
+          <li>
+            <a href="" target="_blank" title="Tourism Info"
+              >Official Tourism Website</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <h3>Contact</h3>
+      <ul>
+        <li><a href="mailto:mehedi.interface@gmail.com">E-mail</a></li>
+        <li><a href="tel:+97433412074">Phone</a></li>
+        <li><a href="https://www.facebook.com/">Facebook</a></li>
+        <li><a href="https://www.instagram.com/">Instagram</a></li>
+        <li><a href="https://www.youtube.com/">YouTube</a></li>
+      </ul>
+
+      <p>&copy; 2025 Cox's Bazar Travel Guide.</p>
+    </footer>
+  </body>
+</html>
